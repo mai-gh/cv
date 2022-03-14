@@ -1,6 +1,6 @@
 ## WIP HTML CV
 
-try it here: [https://mai-gh.github.io/cv/index.html](https://mai-gh.github.io/cv/index.html)
+try it here: [https://mai-gh.github.io/cv/](https://mai-gh.github.io/cv/)
 
 
 this is mainly an exercise in css!
