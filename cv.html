@@ -1,0 +1,206 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+<title>Curriculum Vitae: Mai Atwell  -  8.5x11 Letter</title>
+<style>
+
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro';
+  }
+
+  :root {
+    --nice-padding: 20px;
+    --decent-font-size: 1.25rem;
+  }
+
+
+
+  .ccc {
+    border: none;
+  }
+
+  .toggle:checked ~ div * {
+    border: 1px solid black;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    left: -100vw;
+  }
+
+
+  body {
+    width: 8.5in;
+    height: 11in;
+    margin: auto;
+    padding: 0;
+  }
+
+
+  .page {
+    page-break-after: always;
+    position: relative;
+    width: 8.5in;
+    height: 11in;
+  }
+
+  .page-content {
+    position: absolute;
+    width: 8.125in;
+    height: 10.625in;
+    left: 0.1875in;
+    top: 0.1875in;
+   /* background-color: rgba(0,0,0,0.2); */
+    margin: auto;
+  }
+
+/*  --------  HEADING  --------  */
+
+  .heading {
+    width: 100%;
+    height: calc(10.625in * .1);
+    margin: auto;
+    position: relative;
+  }
+
+  .heading .heading-box-left {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align: center;
+    width: 30%;
+    height: 100%;
+    top: 0%;
+    left: 20%;
+  }
+
+  .heading .heading-box-right {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align: center;
+    width: 30%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+  }
+
+  .heading #heading-name {
+    text-align: center;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    top: 30%;
+  }
+
+  .heading #heading-email {
+    text-align: center;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    top: 60%;
+  }
+
+  .heading #heading-phone {
+    text-align: center;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    top: 30%;
+  }
+
+
+  .heading #heading-city {
+    text-align: center;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    top: 60%;
+  }
+
+/*  --------  OBJECTIVE  --------  */
+
+  #objective {
+    width: 100%;
+    height: calc(10.625in * .15);
+    margin: auto;
+    top: 20%;
+  }
+
+  #skills {
+    width: 100%;
+    height: calc(10.625in * .15);
+    margin: auto;
+    top: 20%;
+  }
+
+  #experience {
+    width: 100%;
+    height: calc(10.625in * .5);
+    margin: auto;
+    top: 20%;
+  }
+
+  #education {
+    width: 100%;
+    height: calc(10.625in * .1);
+    margin: auto;
+    top: 20%;
+  }
+
+
+</style>
+</head>
+<link href="data:image/x-icon;" rel="icon" />
+<body>
+  <label>
+  <input type="checkbox" class="visually-hidden toggle">
+
+  <div class="page">
+    <div class="page-content">
+
+
+      <div class="heading">
+        HEADING:
+        <div class="heading-box-left">
+          <div id="heading-name"> Mai Atwell </div>
+          <div id="heading-email"> mai@cv.html </div>
+        </div>
+
+        <div class="heading-box-right">
+          <div id="heading-phone"> +1 234-567-8900 </div>
+          <div id="heading-city"> New York City </div>
+        </div>
+      </div>
+
+
+      <div id="objective">
+        OBJECTIVE:
+      </div>
+
+
+      <div id="skills">
+        SKILLS:
+      </div>
+
+
+      <div id="experience">
+        EXPERIENCE:
+      </div>
+ 
+
+      <div id="education">
+        EDUCATION:
+      </div>
+
+
+    </div>
+  </div>
+  </label>
+</body>
+
+</html>
