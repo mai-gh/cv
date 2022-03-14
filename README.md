@@ -7,6 +7,7 @@ this is mainly an exercise in css!
 
 
 page uses css to allow printing as one full page
+
 used [https://github.com/lob/examples/blob/master/letters/8.5x11-letter.html](https://github.com/lob/examples/blob/master/letters/8.5x11-letter.html) as my starting point.
 
 
