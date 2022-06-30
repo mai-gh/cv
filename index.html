@@ -10,6 +10,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Source Code Pro';
+    border: 1px solid transparent;
   }
 
   :root {
@@ -20,12 +21,12 @@
 
   .toggle:checked ~ div * {
     border: 1px solid black;
-    background-color: red;
   }
 
   .visually-hidden {
     position: absolute;
     left: -100vw;
+    position: fixed;
   }
 
 
@@ -53,6 +54,7 @@
    /* background-color: rgba(0,0,0,0.2); */
     margin: auto;
   }
+
 
 
 /*  --------  LAYERS  --------  */
